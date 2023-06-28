@@ -31,11 +31,10 @@ const Portfolio = () => {
       id: 6,
       src: reactWeather,
     },
-
   ];
 
   return (
-    <div name="portfolio" className="bg-gradient-to-b from-black to-gray-900 text-white md:h-screen">
+    <div name="portfolio" className="w-full h-full bg-gradient-to-b dark:from-black dark:to-gray-900 from-white to-slate-300 dark:text-white">
       <div className="max-w-screen-lg mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-400">Portfolio</p>

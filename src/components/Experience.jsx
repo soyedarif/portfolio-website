@@ -6,6 +6,7 @@ import reactImage from "../assets/react.png";
 import node from "../assets/node.png";
 import expressjs from "../assets/expressjs.png";
 import mongodb from "../assets/mongodb.png";
+import firebase from "../assets/firebase.png";
 
 const Experience = () => {
   const techs = [
@@ -57,10 +58,16 @@ const Experience = () => {
       title: "MONGODB",
       style: "shadow-green-500",
     },
+    {
+      id: 9,
+      src: firebase,
+      title: "FIREBASE",
+      style: "shadow-amber-400",
+    },
   ];
   return (
-    <div name="experience" className="bg-gradient-to-b w-full h-screen from-gray-900 to-black">
-      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
+    <div name="experience" className="w-full h-full bg-gradient-to-b dark:from-gray-900 dark:to-black from-slate-300 dark:text-white">
+      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full ">
         <div>
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">Experience</p>
           <p className="py-6">These are the technologies I&apos;ve worked with</p>

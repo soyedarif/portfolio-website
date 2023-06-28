@@ -44,11 +44,11 @@ const SocialLinks = () => {
     },
   ];
   return (
-    <div className=" hidden lg:flex flex-col top-[35%] left-0 fixed">
-      <ul>
+    <div className=" lg:block lg:top-[35%] lg:left-0 bottom-3 lg:transform-none -translate-x-1/2 left-1/2 fixed">
+      <ul className="flex sm:justify-center sm:items-center lg:block sm:gap-1">
         {links.map(({ id, child, href, style, download }) => (
-          <li key={id} className={"flex justify-between items-center w-40 h-14 px-4 bg-gray-600 ml-[-6.25rem] hover:rounded-md hover:ml-[-0.7rem] duration-300" + " " + style}>
-            <a href={href} className="flex justify-between items-center w-full text-white" download={download} target="_blank" rel="noopener noreferrer">
+          <li key={id} className={"sm:flex lg:justify-between items-center  md:w-40 w-24 h-14 px-4 bg-gradient-to-b from-cyan-500 to-blue-500 lg:ml-[-6.25rem] hover:rounded-sm lg:hover:ml-[-0.7rem] duration-300" + " " + style}>
+            <a href={href} className="lg:flex lg:justify-between lg:items-center w-full text-white" download={download} target="_blank" rel="noopener noreferrer">
               {child}
             </a>
           </li>
