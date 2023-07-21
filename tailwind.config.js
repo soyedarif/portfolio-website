@@ -11,6 +11,5 @@ export default {
       signature:['Great Vibes', 'cursive']
     }
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 }
-
